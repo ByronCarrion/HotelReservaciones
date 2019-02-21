@@ -51,6 +51,15 @@ a:active,
 a:hover {
   outline: 0;
 }
+#myFooter{
+  background-color:#4a4a48;
+  padding: 50px;
+
+
+}
+
+
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
