@@ -36,8 +36,7 @@
       <article>
         <div class="container">
       <h2> </h2>
-      <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
-
+      <br>
       <ul class="nav nav-tabs nav-justified">
         <li class="active"><a data-toggle="tab" href="#InicioAdmin">Incio</a></li>
         <li><a data-toggle="tab" href="#OfertaAdmin">Ofertas</a></li>
@@ -49,30 +48,142 @@
         <div id="InicioAdmin" class="tab-pane fade in active">
 
           <h3> Solicitud Reservacion</h1>
-          
+        <br>
+ <div class="panel panel-default">
+        <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
         </div>
         <div id="OfertaAdmin" class="tab-pane fade">
-        <h3> Ofertas</h1>
+        <h3>  Agregar Ofertas</h1>
+
+          <form class="panel panel-default">
+            <div class="panel-heading">Inserte los datos de la habitación</div>
+            <div class="panel-body">
+
+              <div class="form-group">
+
+     <label for="exampleInputEmail1">Descripción</label>
+     <input type="email" class="form-control" id="IDDescripcion" aria-describedby="emailHelp" placeholder="Agregue una descripcion de la habitación">
+
+   </div>
+   <div class="form-group">
+
+<label for="exampleInputEmail1">camas</label>
+<input type="email" class="form-control" id="IDhabitaciones" aria-describedby="emailHelp" placeholder="Agregue Cantidad de camas que posee la habitacíon">
+
+</div>
+<div class="form-group">
+
+<label for="exampleInputEmail1">Baños</label>
+<input type="email" class="form-control" id="IDbaños" aria-describedby="emailHelp" placeholder="Agregue Cantidad de baños que posee la habitacíon">
+
+</div>
+<div class="form-group">
+<input type="file" name="archivo" title="seleccionar fichero" id="importararchivos"  />
+</div>
+<div class="form-group">
+<button type="button" class="btn btn-primary">Aceptar oferta</button>
+</div>
+
+            </div>
+          </form>
+
 
         </div>
-        <div id="AlojamientoAdmin" class="tab-pane fade">
-          <h3>Alojamiento</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <form id="AlojamientoAdmin" class="tab-pane fade">
+          <h3> Agregar Alojamiento</h3>
+          <div class="panel panel-default">
+            <div class="panel-heading">Inserte los datos de la habitación</div>
+            <div class="panel-body">
+
+              <div class="form-group">
+
+        <label for="exampleInputEmail1">Descripción</label>
+        <input type="email" class="form-control" id="IDDescripcion" aria-describedby="emailHelp" placeholder="Agregue una descripcion de la habitación">
+
         </div>
+        <div class="form-group">
+
+        <label for="exampleInputEmail1">camas</label>
+        <input type="email" class="form-control" id="IDhabitaciones" aria-describedby="emailHelp" placeholder="Agregue Cantidad de camas que posee la habitacíon">
+
+        </div>
+        <div class="form-group">
+
+        <label for="exampleInputEmail1">Baños</label>
+        <input type="email" class="form-control" id="IDbaños" aria-describedby="emailHelp" placeholder="Agregue Cantidad de baños que posee la habitacíon">
+
+        </div>
+        <div class="form-group">
+        <input type="file" name="archivo" title="seleccionar fichero" id="importararchivos"  />
+        </div>
+        <div class="form-group">
+        <button type="button" class="btn btn-primary">Aceptar Alojamiento</button>
+        </div>
+
+            </div>
+
+        </form>
 
       </div>
     </div>
 
-      </article>
+</article>
   </section>
 
-  <aside>
 
-  </aside>
+  <footer class="page-footer font-small unique-color-dark pt-4">
 
-  <footer>
+<!-- Footer Elements -->
+<div class="container">
 
-  </footer>
+  <!-- Call to action -->
+  <ul class="list-unstyled list-inline text-center py-2">
+    <li class="list-inline-item">
+      <h5 class="mb-1">Reserva en este instante</h5>
+    </li>
+    <li class="list-inline-item">
+      <a href="#!" class="btn btn-outline-secondary">Sign up!</a>
+    </li>
+  </ul>
+  <!-- Call to action -->
+
+</div>
+<!-- Footer Elements -->
+
+
+
+</footer>
+
   <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap.min.js" > </script>
   <script src="js/npm.js" > </script>
