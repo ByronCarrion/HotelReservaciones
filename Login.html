@@ -1,11 +1,91 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css\bootstrap-theme.css" type="text/css">
+      <link rel="stylesheet" href="css\bootstrap-theme.min.css" type="text/css">
+      <link rel="stylesheet" href="css\bootstrap.css" type="text/css">
+      <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <meta charset="utf-8">
+
     <title></title>
+
   </head>
-  <body>
-<p> login </p>
-<h1 > boton </h1>
-  </body>
+
+<body>
+    <!--ENCABEZADO-->
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Incio</a></li>
+                    <li><a href="#">Alojamiento</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Registrase</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--INICIAR SESION-->
+    <section>
+        <article>
+            <div class="container">
+                <form>
+                    <div class="card" style="width: 50rem;">
+                        <h4 class="card-header">AUTENTIFICACIÓN</h4>
+                        <br />
+                        <div class="form-group">
+                            <div class="card-body">
+                                <label for="exampleInputEmail1">INGRESE CON SU CUENTA ASIGNADA</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </article>
+        </section>
+                <!--PIE DE PAGINA-->
+                <footer id="myFooter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h2 class="logo"><a href="#"> LOGO </a></h2>
+                            </div>
+                            <div class="col-sm-3">
+                                <h5>© CopyRigth  2019 Hotel Reseervaciones</h5>
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="social-networks">
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                                <button type="button" class="btn btn-default">Contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <script src="js/bootstrap.js"></script>
+                <script src="js/bootstrap.min.js"> </script>
+                <script src="js/npm.js"> </script>
+
+</body>
+
 </html>
