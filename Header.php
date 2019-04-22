@@ -11,6 +11,7 @@ include "Meta.php";
             <ul class="nav navbar-nav">
               <li><a href="Alojamiento.php" class="navbar-brand">Alojamientos</a></li>
               <li><a href="ofertas.php" class="navbar-brand">Ofertas</a></li>
+              <li> <a href="administracion.php" class="navbar-brand"> Administración</a> </li>
             </ul>
           </div>
 
