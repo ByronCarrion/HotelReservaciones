@@ -3,25 +3,26 @@ include "Meta.php";
  ?>
 
 <header class="">
+
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="bannerprincipal">
         <div class="container-fluid" >
           <div class="navbar-header">
             <a class="navbar-brand" href="Index.php">Hotel Reservaciones</a>
+            <ul class="nav navbar-nav">
+              <li><a href="Alojamiento.php" class="navbar-brand">Alojamientos</a></li>
+              <li><a href="ofertas.php" class="navbar-brand">Ofertas</a></li>
+            </ul>
           </div>
-          <ul class="nav navbar-nav">
 
-            <li><a href="Alojamiento.php">Alojamientos</a></li>
-            <li><a href="ofertas.php">Ofertas</a></li>
-
-          </ul>
           <ul class="nav navbar-nav navbar-right">
 
 
-            <li> <a  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user" data-target="#exampleModal" ></span> Iniciar Sesión</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Cerrar Sesión</a></li>
+            <li> <a   class="navbar-brand" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user" data-target="#exampleModal" ></span> Iniciar Sesión</a></li>
+            <li><a class="navbar-brand"  data-toggle="modal" data-target="#myModal"  ><span class="glyphicon glyphicon-log-in"></span> Registrarse</a></li>
           </ul>
         </div>
       </nav>
+
           <div id="header">
               <!-- container -->
               <div class="container">
@@ -89,38 +90,42 @@ include "Meta.php";
 
                   <!-- ACCOUNT -->
 
-<form class="" method="post">
 
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-      	  <div class="modal-dialog">
-  				<div class="loginmodal-container">
-            	<div class="imgcontainer" >
-                 <img src="img/logo1.jpg" alt="Avatar" class="avatar">
-              </div>
-  					<h1>Iniciar Sesión </h1><br>
-            <form action="">
-               <div class="form-group">
-                   <label for="user">Usuario:</label>
-                   <input type="text" class="form-control" id="user" name="user" required>
-               </div>
-               <div class="form-group">
-                   <label for="pwd">Contraseña:</label>
-                   <input type="password" class="form-control" id="pwd" name="pwd" required>
-               </div>
-               <div class="form-group">
-                   <input class="btn btn-primary" type="submit" value="Iniciar Sesión">
-               </div>
-           </form>
-
-  				  <div class="login-help">
-
-  				  </div>
-  				</div>
-  			</div>
-  		  </div>
-</form>
 
         </header>
+
+        <section>
+          <form class="" method="post">
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                	  <div class="modal-dialog">
+            				<div class="loginmodal-container">
+                      	<div class="imgcontainer" >
+                           <img src="img/logo1.jpg" alt="Avatar" class="avatar">
+                        </div>
+            					<h1>Iniciar Sesión </h1><br>
+                      <form action="">
+                         <div class="form-group">
+                             <label for="user">Usuario:</label>
+                             <input type="text" class="form-control" id="user" name="user" required>
+                         </div>
+                         <div class="form-group">
+                             <label for="pwd">Contraseña:</label>
+                             <input type="password" class="form-control" id="pwd" name="pwd" required>
+                         </div>
+                         <div class="form-group">
+                             <input class="btn btn-primary" type="submit" value="Iniciar Sesión">
+                         </div>
+                     </form>
+
+            				  <div class="login-help">
+
+            				  </div>
+            				</div>
+            			</div>
+            		  </div>
+          </form>
+        </section>
 <script type="text/javascript">
 $(function() {
 
