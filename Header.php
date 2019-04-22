@@ -114,7 +114,7 @@ include "Meta.php";
                              <input type="password" class="form-control" id="pwd" name="pwd" required>
                          </div>
                          <div class="form-group">
-                             <input class="btn btn-info" type="submit" value="Iniciar Sesión">
+                             <input class="btn btn-primary" type="submit" value="Iniciar Sesión">
                          </div>
                      </form>
 
