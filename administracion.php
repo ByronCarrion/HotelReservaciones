@@ -8,7 +8,7 @@ include "Meta.php";
 <section class="imgcontainer">
 
   <div class="col-lg-4">
-        <div class="list-group">
+        <div class="list-group" >
             <a href="#" class="list-group-item list-group-item-action active">
               Gestionar datos
             </a>
