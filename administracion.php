@@ -1,22 +1,35 @@
 <?php
-include "Meta.php";
-include "Header.php";
- ?>
 
-<section>
+include "Header.php";
+include "Meta.php";
+ ?>
+<article class="">
+
+<section class="imgcontainer">
+
   <div class="col-lg-4">
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action active">
-              Cras justo odio
+              Gestionar datos
             </a>
-            <a href="usuarios.php" class="list-group-item list-group-item-action">Gestionar Usuarios
+            <a href="usuarios.php" class="list-group-item list-group-item-action">Gestionar  administradores
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">Gestionar
+            <a href="#" class="list-group-item list-group-item-action ">Gestionar reservaciones
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">Morbi leo risus
+            <a href="#" class="list-group-item list-group-item-action "> Gestionar usuarios
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">Morbi leo risus
+            <a href="#" class="list-group-item list-group-item-action "> Ingresar Reservaciones
             </a>
           </div>
 </div>
 </section>
+
+
+<section>
+  <div class="col-lg-6">
+
+
+  </div>
+</section>
+
+</article>
