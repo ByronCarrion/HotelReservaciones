@@ -18,7 +18,7 @@ include "Meta.php";
 
 
             <li> <a   class="navbar-brand" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user" data-target="#exampleModal" ></span> Iniciar Sesión</a></li>
-            <li><a class="navbar-brand"  data-toggle="modal" data-target="#myModal"  ><span class="glyphicon glyphicon-log-in"></span> Registrarse</a></li>
+            <li><a class="navbar-brand" data-toggle="modal" data-target="#myModalRegister"  ><span class="glyphicon glyphicon-log-in"></span> Registrarse</a></li>
           </ul>
         </div>
       </nav>
@@ -114,8 +114,64 @@ include "Meta.php";
                              <input type="password" class="form-control" id="pwd" name="pwd" required>
                          </div>
                          <div class="form-group">
-                             <input class="btn btn-primary" type="submit" value="Iniciar Sesión">
+                             <input class="btn btn-info" type="submit" value="Iniciar Sesión">
                          </div>
+                     </form>
+
+            				  <div class="login-help">
+
+            				  </div>
+            				</div>
+            			</div>
+            		  </div>
+          </form>
+
+        </section>
+        <section>
+          <form class="" method="post">
+
+            <div class="modal fade" id="myModalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                	  <div class="modal-dialog">
+            				<div class="loginmodal-container">
+                      	<div class="imgcontainer" >
+                           <img src="img/logo1.jpg" alt="Avatar" class="avatar">
+                        </div>
+            					<h1>Registrarse en el guayon </h1><br>
+                      <form action="">
+                        <div class="control-group">
+            <label class="control-label" for="Email">Email:</label>
+            <div class="controls">
+              <input id="Email" name="Email" class="form-control" type="text" placeholder="Example@gmail.com" class="input-large" required="">
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="userid">Usuario:</label>
+            <div class="controls">
+              <input id="userid" name="userid" class="form-control" type="text" placeholder="username" class="input-large" required="">
+            </div>
+          </div>
+
+          <!-- Password input-->
+          <div class="control-group">
+            <label class="control-label" for="password">Contraseña:</label>
+            <div class="controls">
+              <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+              <em>1-8 Characters</em>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+            <div class="controls">
+              <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+            </div>
+          </div>
+          <div class="form-group">
+              <input class="btn btn-success" type="submit" value="Iniciar Sesión">
+          </div>
                      </form>
 
             				  <div class="login-help">
