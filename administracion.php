@@ -7,12 +7,12 @@ include "Meta.php";
 
 <section class="imgcontainer">
 
-  <div class="col-lg-4">
+  <div class="col-lg-2">
         <div class="list-group" >
             <a href="#" class="list-group-item list-group-item-action active">
               Gestionar datos
             </a>
-            <a href="usuarios.php" class="list-group-item list-group-item-action">Gestionar  administradores
+            <a href="gestionaradminis.php" class="list-group-item list-group-item-action">Gestionar  administradores
             </a>
             <a href="#" class="list-group-item list-group-item-action ">Gestionar reservaciones
             </a>
@@ -21,6 +21,12 @@ include "Meta.php";
             <a href="#" class="list-group-item list-group-item-action "> Ingresar Reservaciones
             </a>
           </div>
+</div>
+<div class="col-lg-10">
+
+  <?php
+  include "Calendario/index.php"
+  ?>
 </div>
 </section>
 
