@@ -24,7 +24,7 @@ include "Meta.php";
                 <td>frivera</td>
                 <td>Administrador</td>
                 <td>Activo</td>
-                <td><a href="#"><i class="fa fa-trash"></i></a> &nbsp &nbsp <a href="#"><i class="fa fa-pen-alt"></i></a></td>
+                <td><a href="#"><i class="glyphicon glyphicon-trash"></i></a> &nbsp &nbsp <a href="#"><i class="glyphicon glyphicon-pencil"></i></a></td>
                 </tr>
         </tbody>
         </table>
