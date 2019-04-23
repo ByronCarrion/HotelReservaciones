@@ -77,7 +77,7 @@
                 </ul>
                 <span class="copyright">
                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Hotel y Restaurante el Guayon. All rights reserved | Design<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.facebook.com/williamm.wong.167" target="_blank">Mwong</a>
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Hotel y Restaurante el Guayon. All rights reserved | Design<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/ByronCarrion/HotelReservaciones" target="_blank">GitHub</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </span>
               </div>
