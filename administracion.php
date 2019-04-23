@@ -14,7 +14,7 @@ include "Meta.php";
             </a>
             <a href="gestionaradminis.php" class="list-group-item list-group-item-action">Gestionar  administradores
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">Gestionar reservaciones
+            <a href="GestionarReservaciones.php" class="list-group-item list-group-item-action ">Gestionar reservaciones
             </a>
             <a href="#" class="list-group-item list-group-item-action "> Gestionar usuarios
             </a>
